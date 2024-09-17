@@ -7,9 +7,9 @@ load_dotenv()
 
 OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 API_KEY = os.getenv("API_KEY")
-LAT = 6.268720
-LON = 100.439522
-CNT = 4
+LAT = 6.268720 # Example latitude
+LON = 100.439522 # Example longitude
+CNT = 4 # Number of forecast periods to check (all today)
 
 def bring_umbrella():
 
